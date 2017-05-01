@@ -1,0 +1,26 @@
+{
+  "name": "passthrough-imagesize",
+  "description": "Get the image size of a stream.",
+  "version": "1.0.0",
+  "author": "Tzvi Remez",
+  "license": "MIT",
+  "repository": "tremez/passthrough-imagesize",
+  "devDependencies": {
+    "mocha": "2",
+    "istanbul": "0"
+  },
+  "scripts": {
+    "test": "mocha --reporter spec",
+    "test-cov": "istanbul cover node_modules/mocha/bin/_mocha -- --reporter dot",
+    "test-travis": "istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --reporter dot"
+  },
+  "keywords": [
+    "stream",
+    "count",
+    "passthrough",
+    'imagesize'
+  ],
+  "files": [
+    "index.js"
+  ]
+}
