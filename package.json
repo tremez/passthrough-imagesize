@@ -6,8 +6,8 @@
   "license": "MIT",
   "repository": "tremez/passthrough-imagesize",
   "devDependencies": {
-    "mocha": "2",
-    "istanbul": "0"
+    "istanbul": "0",
+    "mocha": "2"
   },
   "scripts": {
     "test": "mocha --reporter spec",
@@ -22,5 +22,8 @@
   ],
   "files": [
     "index.js"
-  ]
+  ],
+  "dependencies": {
+    "image-size": "^0.6.3"
+  }
 }
