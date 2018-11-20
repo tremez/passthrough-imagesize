@@ -1,7 +1,7 @@
 {
   "name": "passthrough-imagesize",
   "description": "Get the image size of a stream.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Tzvi Remez",
   "license": "MIT",
   "repository": "tremez/passthrough-imagesize",
